@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6b666e</color>
+    <color name="colorPrimaryDark">#9a7795ef</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="welcome">#000</color>
+    <color name="text_welcome">#000</color>
+    <color name="app_bg">#dab5eb</color>
+    <color name="frist_bg">#d68d8c</color>
+    <color name="qq_bg">#fff</color>
+    <color name="app2_bg">#bb6dec</color>
+    <color name="web_bu_bg">#28ffffff</color>
+    <color name="text_color">#ffffff</color>
+    <color name="category_color">#000</color>
+    <color name="button_bg">#02ffffff</color>
+    <color name="button_l_bg">#9a9999</color>
+</resources>

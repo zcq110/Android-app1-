@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    >
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignTop="@+id/button_category"
+        android:layout_marginEnd="11dp"
+        android:background="@mipmap/search" />
+
+    <Button
+        android:id="@+id/button_category"
+        android:layout_width="30dp"
+
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:background="@mipmap/category" />
+
+    <Button
+        android:id="@+id/button_app"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_alignTop="@+id/button_web"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/app_main"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/button_web"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="86dp"
+        android:background="@mipmap/web3"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button_app"
+        android:layout_marginEnd="21dp"
+        android:background="@mipmap/tip" />
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:elevation="1dp"
+        android:text="   精选文章"
+        android:textColor="@color/text_color"
+        android:textSize="20dp"
+        android:background="#47e8e3e0"/>
+
+
+    <WebView
+        android:id="@+id/webView_active"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.7" />
+
+
+</RelativeLayout>

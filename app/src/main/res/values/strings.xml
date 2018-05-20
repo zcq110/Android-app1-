@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ZCQ</string>
+    <string name="login_success">login success</string>
+    <string name="login_fail">login fail</string>
+    <string name="cancel_success">Cancel Success</string>
+    <string name="cancel_fail">Cancel Fail</string>
+    <string name="account_empty">Account Empty</string>
+    <string name="pwd_empty">PassWord Empty</string>
+    <string name="name_already_exist">Name Already Exit</string>
+    <string name="pwd_not_the_same">PassWord not the Same</string>
+    <string name="register_fail">Register Fail</string>
+    <string name="register_success">Register Success</string>
+    <string name="pwd_check_empty">PassWord Empty</string>
+    <string name="resetpwd_fail">Fail</string>
+    <string name="resetpwd_success">Success</string>
+    <string name="pwd_not_fit_user">Not True</string>
+    <string name="name_not_exist">NO</string>
+    <string name="pwd_new_empty">EMpty</string>
+    <string name="category_string">你站在桥上看风景\n\n看风景的人在楼上看你\n\n明月装饰了你的窗子\n\n你装饰了别人的梦</string>
+    <string name="tip_string">该应用是</string>
+    <string name="login_string">一花一世界\n\n一叶一追寻\n\n一曲一场叹\n\n一生为一人</string>
+</resources>

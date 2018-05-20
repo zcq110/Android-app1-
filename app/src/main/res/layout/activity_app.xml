@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:background="#47e8e3e0"
+        android:text="    精选应用"
+        android:textColor="@color/text_color"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_help_app"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:background="@mipmap/help"
+        android:alpha="0.7"/>
+
+    <Button
+        android:id="@+id/button_back_app"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_alignBottom="@+id/button_help_app"
+
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/back" />
+
+    <Button
+        android:id="@+id/button_qq"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:background="@mipmap/qq" />
+
+    <Button
+        android:id="@+id/button_wb"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:alpha="0.7"
+        android:background="@mipmap/wb" />
+
+    <Button
+        android:id="@+id/button_wx"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:background="@mipmap/wx" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="180dp"
+        android:background="@mipmap/jd" />
+
+    <Button
+        android:id="@+id/button_tao"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="220dp"
+        android:alpha="0.7"
+        android:background="@mipmap/tb" />
+
+    <Button
+        android:id="@+id/button_zhi"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="300dp"
+        android:alpha="0.7"
+        android:background="@mipmap/zfb" />
+
+    <Button
+        android:id="@+id/button_wangyi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="180dp"
+        android:background="@mipmap/wangyi"/>
+
+    <Button
+        android:id="@+id/button_ditu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="120dp"
+        android:background="@mipmap/gdditu" />
+
+    <WebView
+        android:id="@+id/webview_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.7">
+
+    </WebView>
+
+</RelativeLayout>

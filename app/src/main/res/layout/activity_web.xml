@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <Button
+        android:id="@+id/button_web_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/back" />
+
+    <Button
+        android:id="@+id/button_web_help"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="380dp"
+        android:background="@mipmap/help"
+        android:alpha="0.7"/>
+
+    <WebView
+        android:id="@+id/webview_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.9">
+
+    </WebView>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="210dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-5dp"
+        android:alpha="0.8"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="198dp"
+        android:background="@mipmap/web_bgmm"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:id="@+id/text_image"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="200dp"
+        android:background="#68e8e3e0"
+        android:text="  精选图片"
+        android:textColor="@color/text_color"
+        android:textSize="20dp" />
+</RelativeLayout>
